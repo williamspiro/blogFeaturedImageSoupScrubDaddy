@@ -1,5 +1,5 @@
 # blogFeaturedImageSoupScrubKitten
-A tool to soup featured images from an external blog, and set them as the featured image for their HubSpot hosted equivalent post if the import does not go as planned
+A tool to soup featured images from an external blog, and set them as the featured image for their HubSpot hosted equivalent post if the import does not go as planned. This tool will find the featured image on your external blog, upload it to the HubSpot File Manager, and then set the HubSpot hosted version of the posts' `featuredImage` with the newly uploaded File Manager asset.
 
 ### REQUIRES
 [python](https://www.python.org/)  

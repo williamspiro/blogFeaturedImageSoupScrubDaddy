@@ -34,7 +34,7 @@ for x in postsToSoupScrubKitten:
 	blogSearchObject = requests.get(blogsGetSearchUrl, params=blogsGetSearchUrlParams)
 	postIds = blogSearchObject.json()["objects"]
 	postId = postIds[0]["id"]
-	print "Found post id {} with slug{}".format(postId, slug)
+	print "Found post id {} with slug {}".format(postId, slug)
 
 	# PUT the newly uploaded file back to the page object
 	pageUpdateUrl = "{}blogs/v3/blog-posts/{}{}".format(apiBase, postId, queryParams)

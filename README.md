@@ -5,8 +5,6 @@ A tool to soup featured images from an external blog, and set them as the featur
 [python](https://www.python.org/)  
 [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)  
 [requests](http://docs.python-requests.org/en/master/)  
-[urllib2](https://docs.python.org/2/library/urllib2.html)  
-[json](https://docs.python.org/2/library/json.html)  
 
 ### SETUP
 Set required variables `portalId`, `accessToken`, `blogRootUrl`, `featuredImageSelector` & `postsToSoupScrubKitten`
